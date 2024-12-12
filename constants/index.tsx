@@ -11,7 +11,7 @@ export const navigation = [
       description:
         'Classy Weather 🌤️ | The weather app called "Classy Weather" is an innovative and aesthetic platform that allows users to easily and quickly view the weather of any city. The application has unique features that help users to get clear and informative information about todays weather and the next 6 days.',
       image: "/Classy-Weather.png",
-      details: "",
+      details: "technologies build with",
       liveLink: "https://classy-weather-drab.vercel.app/",
       created_At: "2024/08/21",
     },
