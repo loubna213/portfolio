@@ -1,4 +1,5 @@
 import { projects } from "@/constants";
+import Image from "next/image";
 import Link from "next/link";
 
 const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
@@ -17,9 +18,10 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
             </section>
 
             <section className="section_container">
-              <img
+              <Image
                 src={project.image}
                 alt="thumbnail"
+                fill
                 className="w-full h-auto rounded-xl"
               />
 
@@ -29,7 +31,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
                 <div className="flex justify-center items-center">
                   <h4>Build using the following techs: </h4>
                   <ul className="mt-4 flex flex-wrap gap-4">
-                    { project.techs.map((tech: string) => <li className="skill">{tech}</li>)}
+                    { project.techs.map((tech: string) => <li key={project.id} className="skill">{tech}</li>)}
                   </ul>
                 </div>
                 <div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export interface Project {
@@ -28,9 +29,10 @@ const ProjectCard = ({ project }: ProjectProps) => {
       <Link href="">
         <p className="project-card_desc">{project.description}</p>
 
-        <img
+        <Image
           src={project.image}
           alt="placeholder"
+          fill
           className="project-card_img"
         />
       </Link>

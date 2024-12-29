@@ -69,7 +69,7 @@ export const navigation = [
       id: 7,
       title: "World Wise",
       description:
-        '',
+        '"World Wise 🌍 | ',
       image: "/World-Wise.png",
       techs: ['Reactjs', 'Javascript', 'Tailwind CSS'],
       liveLink: "https://worldwise-pi-flax.vercel.app/",
