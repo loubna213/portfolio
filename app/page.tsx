@@ -3,7 +3,6 @@ export default async function Home() {
   return (
       <section className="black_container">
         <h3 className="tag">web development</h3>
-
         <h1 className="heading">
           i&apos;m loubna lekouaghet <br />a frontend developer
         </h1>

@@ -5,7 +5,7 @@ export interface Project {
   title: string;
   description: string;
   image: string;
-  details: string;
+  details?: string;
   liveLink: string;
   created_At: string;
 }
