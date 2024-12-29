@@ -5,7 +5,7 @@ export default async function Home() {
         <h3 className="tag">web development</h3>
 
         <h1 className="heading">
-          i'm loubna lekouaghet <br />a frontend developer
+          i&apos;m loubna lekouaghet <br />a frontend developer
         </h1>
 
         <p className="sub-heading !max-w-3xl">
