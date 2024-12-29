@@ -65,7 +65,7 @@ export const navigation = [
     { id: 5, skill: "Bootstrap"},
     { id: 6, skill: "Tailwind Css"},
     { id: 7, skill: "React.js"},
-    { id: 12, skill: "Redux"},
+    { id: 12, skill: "Redux Toolkit"},
     { id: 13, skill: "Material UI"},
     { id: 14, skill: "Framer Motion"},
     { id: 8, skill: "Next.js"},
