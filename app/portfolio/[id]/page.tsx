@@ -21,7 +21,6 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
               <Image
                 src={project.image}
                 alt="thumbnail"
-                fill
                 className="w-full h-auto rounded-xl"
               />
 

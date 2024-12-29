@@ -32,7 +32,6 @@ const ProjectCard = ({ project }: ProjectProps) => {
         <Image
           src={project.image}
           alt="placeholder"
-          fill
           className="project-card_img"
         />
       </Link>
