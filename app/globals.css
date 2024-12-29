@@ -14,6 +14,9 @@
   .flex-between {
     @apply flex justify-between items-center;
   }
+  .skill {
+    @apply border-4 border-black rounded-full bg-white px-4 py-2 shadow-100
+  }
 
   .text-30-extrabold {
     @apply text-[30px] font-extrabold text-white;

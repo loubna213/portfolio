@@ -17,7 +17,7 @@ const page = () => {
         <h3 className="text-3xl mt-8 font-semibold">Skills</h3>
         <ul className="mt-4 flex flex-wrap gap-4">
           {
-            skills.map(skill => <li key={skill.id}  className="border-4 border-black rounded-full bg-white px-4 py-2 shadow-100">{skill.skill}</li>)
+            skills.map(skill => <li key={skill.id}  className="skill">{skill.skill}</li>)
           }
         </ul>
       </section>
