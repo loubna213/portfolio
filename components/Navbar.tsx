@@ -22,6 +22,11 @@ const Navbar = () => {
               )
             )
           }
+          <li>
+            <a href="/Loubnaresume.pdf"
+              download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg hidden max-md:block"><span>Resume</span> <ExternalLink />
+            </a>
+          </li>
         </ul>
         <Link
           href="/"
@@ -36,7 +41,8 @@ const Navbar = () => {
           <Link href="https://github.com/loubna213"><Github /></Link>
           <Link href="https://www.linkedin.com/in/loubna-lekouaghet-2a05b7232/"><Linkedin /></Link>
           <a href="/Loubnaresume.pdf"
-            download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg"><span>Resume</span> <ExternalLink /></a>
+            download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:hidden"><span>Resume</span> <ExternalLink />
+          </a>
         </div>
       </nav>
     </header>
