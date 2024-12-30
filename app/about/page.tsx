@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
       <p className="section-heading">About me</p>
-      <section className="mx-auto max-w-[1440px] py-12 px-12 2xl:px-0 max-md:px-16">
+      <section className="mx-auto max-w-[1440px] py-12 px-12 2xl:px-0 max-md:px-8">
         <p className="text-xl leading-relaxed">
           Hi, I&apos;m Loubna Lekouaghet, a dedicated Frontend Developer who loves turning ideas into functional and visually appealing projects.
           I specialize in building responsive websites and web applications and crafting intuitive user interfaces i also enjoy exploring innovative solutions to challenging problems. 
