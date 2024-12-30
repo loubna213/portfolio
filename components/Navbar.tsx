@@ -13,21 +13,21 @@ const Navbar = () => {
       <nav className="relative flex justify-between items-center">
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
-        <ul className={`max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute max-md:w-4/5 max-md:h-screen max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 flex gap-4 transition-all duration-[5000] ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
-          {
-            navigation.map(link => (
-                <li onClick={() => setToggle(prev => !prev)} key={link.id}>
-                  <Link href={link.href} className="nav-link">{link.name}</Link>
-                </li>
+        <div className="flex flex-col justify-between">
+          <ul className={`max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute max-md:w-4/5 max-md:h-screen max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 flex gap-4 transition-all duration-[5000] ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+            {
+              navigation.map(link => (
+                  <li onClick={() => setToggle(prev => !prev)} key={link.id}>
+                    <Link href={link.href} className="nav-link">{link.name}</Link>
+                  </li>
+                )
               )
-            )
-          }
-          <li>
-            <a href="/Loubnaresume.pdf"
-              download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg hidden max-md:block"><span>Resume</span> <ExternalLink />
-            </a>
-          </li>
+            }
+          <a href="/Loubnaresume.pdf"
+            download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg hidden max-md:block"><span>Resume</span> <ExternalLink />
+          </a>
         </ul>
+        </div>
         <Link
           href="/"
           className="border-4 border-black text-white bg-black px-0.5 rounded-lg py-1 "
