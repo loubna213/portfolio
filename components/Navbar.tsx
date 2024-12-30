@@ -14,7 +14,7 @@ const Navbar = () => {
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
         <div className="">
-          <ul className={`flex flex-col justify-between h-screen max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute max-md:w-4/5 max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 max-md:overflow-hidden transition-all duration-500 ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+          <ul className={`max-md:flex max-md:flex-col max-md:justify-between max-md:h-screen max-md:bg-white max-md:top-0 max-md:absolute max-md:w-4/5 max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 max-md:overflow-hidden transition-all duration-500 ${toggle ? 'max-md:left-0' : 'max-md:-left-full'}`}>
             <div>
               {navigation.map(link => (
                 <li onClick={() => setToggle(prev => !prev)} key={link.id}>
@@ -27,6 +27,7 @@ const Navbar = () => {
             </a>
           </ul>
         </div>
+
 
         <Link
           href="/"
