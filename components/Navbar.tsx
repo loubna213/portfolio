@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="relative flex justify-between items-center">
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between h-full">
           <ul className={`max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute max-md:w-4/5 max-md:h-screen max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 flex gap-4 transition-all duration-[5000] ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
             {
               navigation.map(link => (
