@@ -34,7 +34,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
                   </ul>
                 </div>
                 <div>
-                  <Link href={project.liveLink} className="text-yellow-500">See the project live from here</Link>
+                  <Link href={project.liveLink} className="text-secondary">See the project live from here</Link>
                 </div>
               </div>
             </section>
