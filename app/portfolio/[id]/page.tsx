@@ -27,7 +27,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
               <div className="space-y-5 mt-10 max-w-4xl mx-auto">
 
                 <h3 className="text-30-bold">Project Details</h3>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center max-md:flex-row">
                   <h4>Build using the following techs: </h4>
                   <ul className="mt-4 flex flex-wrap gap-4">
                     { project.techs.map((tech: string) => <li key={project.id} className="skill">{tech}</li>)}
