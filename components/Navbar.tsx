@@ -13,8 +13,8 @@ const Navbar = () => {
       <nav className="relative flex justify-between items-center">
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
-        <div className="">
-          <ul className={`max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute max-md:w-4/5 max-md:h-screen max-md:text-center max-md:pt-20 max-md:space-y-8 max-md:z-40 flex gap-4 transition-all duration-[5000] ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+        <div className={`max-md:z-40 flex justify-between gap-4 transition-all duration-[5000] max-md:text-center max-md:pt-20  max-md:h-screen max-md:w-4/5 max-md:bg-white max-md:top-0 max-md:inline-block max-md:absolute ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+          <ul className={`max-md:space-y-8`}>
               {navigation.map(link => (
                 <li onClick={() => setToggle(prev => !prev)} key={link.id}>
                   <Link href={link.href} className="nav-link">{link.name}</Link>
