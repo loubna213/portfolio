@@ -8,6 +8,14 @@ import { useState } from "react";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   
+  useEffect(() => {
+    document.body.className = toggle ? 'no-scroll' : '';
+
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
+  }, [toggle]);
+  
   return (
     <header className="px-6 py-3 bg-white shadow-sm font-work-sans">
       <nav className="relative flex justify-between items-center">
