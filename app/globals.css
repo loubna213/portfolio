@@ -51,7 +51,7 @@
   }
 
   .black_container {
-    @apply w-full bg-black min-h-[545px] pattern flex justify-center items-center flex-col py-10 px-6;
+    @apply w-full bg-black min-h-[545px] pattern flex justify-center items-center flex-col py-10 px-6 max-md:h-screen;
   }
 
   .section-heading {
