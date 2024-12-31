@@ -21,8 +21,10 @@ const Navbar = () => {
                 </li>
               ))}
           </ul>
-          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block flex justify-center items-center gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:block">
-            <span>Resume</span> <ExternalLink />
+          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block bg-black text-white px-4 py-2 rounded-lg max-md:block">
+            <div className="flex justify-center items-center gap-2">
+              <span>Resume</span> <ExternalLink />
+            </div>
           </a>
         </div>
 
