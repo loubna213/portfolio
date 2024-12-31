@@ -20,10 +20,10 @@ const Navbar = () => {
                   <Link href={link.href} className="nav-link">{link.name}</Link>
                 </li>
               ))}
-            <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:block">
-              <span>Resume</span> <ExternalLink />
-            </a>
           </ul>
+          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:block">
+            <span>Resume</span> <ExternalLink />
+          </a>
         </div>
 
 
