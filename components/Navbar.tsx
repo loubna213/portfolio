@@ -8,20 +8,12 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   
-  useEffect(() => {
-    document.body.className = toggle ? 'no-scroll' : '';
-
-    return () => {
-      document.body.classList.remove('no-scroll');
-    };
-  }, [toggle]);
-  
   return (
     <header className="px-6 py-3 bg-white shadow-sm font-work-sans">
       <nav className="relative flex justify-between items-center">
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
-        <div className={`max-md:flex-col max-md:z-40 flex justify-between transition-all duration-[5000] max-md:text-center max-md:py-20 max-md:px-6 max-md:h-screen max-md:w-4/5 max-md:bg-white max-md:top-0 max-md:fixed ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+        <div className={`max-md:flex-col max-md:z-40 flex justify-between transition-all duration-[5000] max-md:text-center max-md:py-20 max-md:px-6 max-md:h-screen max-md:w-4/5 max-md:bg-white max-md:top-0 max-md:absolute ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
           <ul className="flex gap-4 max-md:flex-col max-md:space-y-8">
               {navigation.map(link => (
                 <li onClick={() => setToggle(prev => !prev)} key={link.id}>
