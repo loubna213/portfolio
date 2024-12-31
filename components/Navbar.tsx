@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="relative flex justify-between items-center">
         <AlignJustify onClick={() => setToggle(prev => !prev)} className="z-50 max-md:block hidden cursor-pointer" />
         
-        <div className={`max-md:flex-col max-md:z-40 flex justify-between transition-all duration-[5000] max-md:text-center max-md:py-20 max-md:px-12 max-md:h-screen max-md:w-4/5 max-md:bg-white max-md:top-0 max-md:absolute ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
+        <div className={`max-md:flex-col max-md:z-40 flex justify-between transition-all duration-[5000] max-md:text-center max-md:py-20 max-md:px-6 max-md:h-screen max-md:w-4/5 max-md:bg-white max-md:top-0 max-md:absolute ${toggle ? 'max-md:-left-6' : 'max-md:-left-[90%]'}`}>
           <ul className="flex gap-4 max-md:flex-col max-md:space-y-8">
               {navigation.map(link => (
                 <li onClick={() => setToggle(prev => !prev)} key={link.id}>
@@ -21,7 +21,7 @@ const Navbar = () => {
                 </li>
               ))}
           </ul>
-          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:block">
+          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block flex justify-center items-center gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:block">
             <span>Resume</span> <ExternalLink />
           </a>
         </div>
