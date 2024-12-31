@@ -21,7 +21,7 @@ const Navbar = () => {
                 </li>
               ))}
           </ul>
-          <a href="/Loubnaresume.pdf" download="loubnaresume.pdf" className="hidden max-md:block bg-black text-white px-4 py-2 rounded-lg max-md:block">
+          <a href="/Loubnaresume.pdf" download="Loubnaresume.pdf" className="bg-black text-white px-4 py-2 rounded-lg block md:hidden">
             <div className="flex justify-center items-center gap-2">
               <span>Resume</span> <ExternalLink />
             </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href="https://github.com/loubna213"><Github /></Link>
           <Link href="https://www.linkedin.com/in/loubna-lekouaghet-2a05b7232/"><Linkedin /></Link>
           <a href="/Loubnaresume.pdf"
-            download="loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:hidden"><span>Resume</span> <ExternalLink />
+            download="Loubnaresume.pdf" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:hidden"><span>Resume</span> <ExternalLink />
           </a>
         </div>
       </nav>
