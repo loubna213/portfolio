@@ -1,4 +1,4 @@
-import { skills } from "../../constants";
+import { skills } from "@/constants";
 
 const page = () => {
   return (
