@@ -1,7 +1,7 @@
 "use client"
 
 import { AnimatePresence, motion } from "framer-motion"
-import Navbar from "@/Navbar";
+import Navbar from "./Navbar";
 import { usePathname } from "next/navigation";
 
 const TransitionProvider = ({ children }: {children:React.ReactNode;}) => {
