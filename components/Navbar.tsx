@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Github, Linkedin, ExternalLink, AlignJustify } from "lucide-react"
-import { navigation } from "../constants";
+import { navigation } from "@/constants";
 import { useState } from "react";
 
 const Navbar = () => {
