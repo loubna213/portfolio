@@ -27,8 +27,7 @@ const Navbar = () => {
             </div>
           </a>
         </div>
-
-
+        
         <Link
           href="/"
           className="border-4 border-black text-white bg-black px-0.5 rounded-lg py-1 "
