@@ -35,7 +35,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
                 </div>
                 <div className="flex flex-wrap gap-2 justify-center">
                   <h3 className="text-2xl font-semibold">See the project live: </h3>
-                  <Link href={project.liveLink} className="text-secondary">{project.link}</Link>
+                  <Link href={project.liveLink} className="text-secondary">{project.liveLink}</Link>
                 </div>
               </div>
             </section>
