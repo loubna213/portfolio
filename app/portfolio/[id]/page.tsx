@@ -33,8 +33,9 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
                     { project.techs.map((tech: string) => <li key={project.id} className="skill">{tech}</li>)}
                   </ul>
                 </div>
-                <div>
-                  <Link href={project.liveLink} className="text-secondary">See the project live from here</Link>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  <h3 className="text-2xl font-semibold">See the project live: </h3>
+                  <Link href={project.liveLink} className="text-secondary">{project.link}</Link>
                 </div>
               </div>
             </section>
