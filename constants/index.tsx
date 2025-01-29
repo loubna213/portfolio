@@ -15,7 +15,7 @@ export const navigation = [
       liveLink: "https://classy-weather-drab.vercel.app/",
       created_At: "2024/08/06",
     },
-     {
+      {
       id: 2,
       title: "Pizza Menu",
       description:
