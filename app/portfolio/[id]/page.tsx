@@ -12,7 +12,6 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
           <>
             <section className="black_container !min-h-[230px]">
               <p className="tag">{project.created_At}</p>
-
               <h1 className="heading">{project.title}</h1>
               <p className="sub-heading !max-w-5xl">{project.description}</p>
             </section>
