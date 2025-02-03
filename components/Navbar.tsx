@@ -21,7 +21,7 @@ const Navbar = () => {
                 </li>
               ))}
           </ul>
-          <a href="/Loubna Lekouaghet _ Frontend Developer.pdf.pdf" aria-label="download loubna's resume" download="Loubna Lekouaghet _ Frontend Developer.pdf.pdf" className="bg-black text-white px-4 py-2 rounded-lg block md:hidden">
+          <a href="/LoubnaLekouaghet_Frontend_Developer.pdf" aria-label="download loubna's resume" download="LoubnaLekouaghet_Frontend_Developer.pdf" className="bg-black text-white px-4 py-2 rounded-lg block md:hidden">
             <div className="flex justify-center items-center gap-2">
               <span>Resume</span> <ExternalLink />
             </div>
@@ -41,8 +41,8 @@ const Navbar = () => {
         <div className="flex justify-center items-center gap-4">
           <Link href="https://github.com/loubna213" aria-label="Github icon"><Github /></Link>
           <Link href="https://www.linkedin.com/in/loubna-lekouaghet-2a05b7232/" aria-label="linkedin icon"><Linkedin /></Link>
-          <a href="/Loubna Lekouaghet _ Frontend Developer.pdf.pdf"
-            download="Loubna Lekouaghet _ Frontend Developer.pdf.pdf" aria-label="download loubna's resume" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:hidden"><span>Resume</span> <ExternalLink />
+          <a href="/LoubnaLekouaghet_Frontend_Developerpdf"
+            download="LoubnaLekouaghet_Frontend_Developer.pdf" aria-label="download loubna's resume" className="flex gap-2 bg-black text-white px-4 py-2 rounded-lg max-md:hidden"><span>Resume</span> <ExternalLink />
           </a>
         </div>
       </nav>
