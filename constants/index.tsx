@@ -59,7 +59,7 @@ export const navigation = [
       id: 6,
       title: "Univertop",
       description:
-        'Univertop 🗂 |',
+        'Univertop 🗂 | Soyez Parfait aux Entretiens est une plateforme innovante dédiée à l’optimisation de votre préparation aux entretiens d’embauche. Nos experts en Ressources Humaines (RH) et en Technologie vous accompagnent à chaque étape pour augmenter vos chances d’obtenir des entretiens et les réussir, notamment dans les start-ups et entreprises de haute technologie en France et à l’international.',
       image: "/Univertop.png",
       techs: ['Reactjs', 'Javascript', 'Tailwind CSS'],
       liveLink: "https://univertop.vercel.app/",
