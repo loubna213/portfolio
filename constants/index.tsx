@@ -89,11 +89,11 @@ export const navigation = [
       id: 9,
       title: "ToDo List",
       description:
-        'ToDo List | ',
-      image: "/Todolist.png",
-      techs: ['Reactjs', 'Typescript'],
-      liveLink: "https://classy-weather-drab.vercel.app/",
-      created_At: "2024/08/06",
+        'ToDo List ✅ | The ToDo List App is a simple and intuitive task management application designed to help users organize their daily activities, set priorities, and track progress efficiently. Whether for personal use, work, or collaborative projects, this app streamlines productivity by allowing users to create, edit, and manage tasks effortlessly.',
+      image: "/ToDo-List.png",
+      techs: ['Reactjs', 'Typescript', 'Context api'],
+      liveLink: "https://todo-list-wwik.vercel.app/,
+      created_At: "2024/12/18",
     },
   ];
   
