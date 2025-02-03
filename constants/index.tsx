@@ -85,6 +85,16 @@ export const navigation = [
       liveLink: "https://univertop.vercel.app/",
       created_At: "2024/08/20",
     },
+      {
+      id: 9,
+      title: "ToDo List",
+      description:
+        'ToDo List | ',
+      image: "/Todolist.png",
+      techs: ['Reactjs', 'Typescript'],
+      liveLink: "https://classy-weather-drab.vercel.app/",
+      created_At: "2024/08/06",
+    },
   ];
   
   export const skills = [
