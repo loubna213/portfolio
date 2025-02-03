@@ -112,4 +112,6 @@ export const navigation = [
     { id: 9, skill: "Git"},
     { id: 10, skill: "Github"},
     { id: 11, skill: "API integration"},
+    { id: 15, skill: "Node js"},
+    { id: 16, skill: "Express js"},
   ]
