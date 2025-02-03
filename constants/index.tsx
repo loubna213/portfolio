@@ -85,14 +85,14 @@ export const navigation = [
       liveLink: "https://univertop.vercel.app/",
       created_At: "2024/08/20",
     },
-      {
+    {
       id: 9,
       title: "ToDo List",
       description:
         'ToDo List ✅ | The ToDo List App is a simple and intuitive task management application designed to help users organize their daily activities, set priorities, and track progress efficiently. Whether for personal use, work, or collaborative projects, this app streamlines productivity by allowing users to create, edit, and manage tasks effortlessly.',
       image: "/ToDo-List.png",
       techs: ['Reactjs', 'Typescript', 'Context api'],
-      liveLink: "https://todo-list-wwik.vercel.app/,
+      liveLink: "https://todo-list-wwik.vercel.app/",
       created_At: "2024/12/18",
     },
   ];
