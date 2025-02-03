@@ -59,7 +59,7 @@ export const navigation = [
       id: 6,
       title: "Univertop",
       description:
-        'The site is designed with simplicity in mind, allowing you to browse the menu and place your order with ease. The page is fully responsive, making it accessible on any device, and the high-quality images of each pizza will have you drooling in no time.',
+        'Univertop 🗂 |',
       image: "/Univertop.png",
       techs: ['Reactjs', 'Javascript', 'Tailwind CSS'],
       liveLink: "https://univertop.vercel.app/",
@@ -69,7 +69,7 @@ export const navigation = [
       id: 7,
       title: "World Wise",
       description:
-        '"World Wise 🌍 | ',
+        '"World Wise 🌍 | The WorldWise Web App is an interactive, map-based exploration tool that allows users to search for countries and cities worldwide, learn key details, and pin them on a personalized map. Whether you’re a traveler, researcher, or geography enthusiast, this app provides a seamless way to discover places, save favorite locations, and visualize your journeys.',
       image: "/World-Wise.png",
       techs: ['Reactjs', 'Javascript', 'Tailwind CSS'],
       liveLink: "https://worldwise-pi-flax.vercel.app/",
