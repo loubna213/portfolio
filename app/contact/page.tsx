@@ -16,7 +16,7 @@ const ContactForm = () => {
             required
             className="contact-form_input"
           />
-        </div>
+        </div> 
         <div  className="flex flex-col">
           <label htmlFor="email" className="contact-form_label">
             Email
