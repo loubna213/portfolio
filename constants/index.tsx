@@ -1,5 +1,5 @@
 
-export const navigation = [
+  export const navigation = [
     { id: 1, name: "About", href: "/about"},
     { id: 2, name: "Portfolio", href: "/portfolio"},
     { id: 3, name: "Contact", href: "/contact"},
