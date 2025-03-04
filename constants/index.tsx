@@ -4,6 +4,7 @@
     { id: 2, name: "Portfolio", href: "/portfolio"},
     { id: 3, name: "Contact", href: "/contact"},
   ]
+
   export const projects = [
     {
       id: 1,
