@@ -44,6 +44,7 @@ const ContactForm = () => {
         <button
           type="submit"
           className="contact-form_btn"
+          aria-label="send"
         >
           Send Message
         </button>

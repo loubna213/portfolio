@@ -38,7 +38,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
 
       <div className="flex-between gap-3 mt-5">
         <p className="startup_card_date">{project.created_At}</p>
-        <button className="project-card_btn">
+        <button className="project-card_btn" aria-label="details">
           <Link href={`/portfolio/${project.id}`}>Details</Link>
         </button>
       </div>
